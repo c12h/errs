@@ -33,7 +33,7 @@ type CannotError struct {
 	Adjective string // What kind of thing the action was on, or ""
 	Noun      string // Which thing the action was on
 	QuoteNoun bool   // Whether to put .Noun in double quotes
-	Suffix    string // Text to go after the nound, or ""
+	Suffix    string // Text to go after the noun, or ""
 	BaseError error  // The underlying error, if any
 }
 
